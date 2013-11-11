@@ -1,0 +1,6 @@
+.whater a#whatsapp {
+	display: block;
+	background: url(img/icon.png) no-repeat;	
+	height: 32px;
+	min-width: 32px;
+}
