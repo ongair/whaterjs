@@ -3,7 +3,7 @@
  * @depends js/tinyDOM.js
  */
 (function (global) {
-    if (!isMobile.any) {
+    if (isMobile.any) {
         $.loadCSS("/whaterjs/style.css");
         var url = window.location;
         console.log("Location : ", url);
