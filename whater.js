@@ -6,7 +6,12 @@
     if (isMobile.any) {
         $.loadCSS("/whaterjs/style.css");
         var url = window.location;
-        console.log("Location : ", url);
-        $.id("whatsapp").setAttribute("href", "whatsapp://send?text=" + url);
+        // console.log("Location : ", url);
+        if (isMobile.android) {
+        	$.id("whatsapp").setAttribute("href", "com.whatsapp://send?text=" + url);
+        }
+        else {
+        	$.id("whatsapp").setAttribute("href", "whatsapp://send?text=" + url);
+        }        
     }
 })(this);

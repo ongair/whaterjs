@@ -26,6 +26,13 @@ And that's it
 2. TinyDOM
 3. Juicer (http://cjohansen.no/en/ruby/juicer_a_css_and_javascript_packaging_tool)
 
+
+## Building it for yourself
+
+1. WhaterJS is built using uglifier
+2. Run bundle to install the uglifier gem
+3. Run [ruby build.rb]
+
 ## Contributing
 
 1. Fork it

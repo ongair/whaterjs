@@ -1,0 +1,13 @@
+GEM
+  specs:
+    execjs (2.0.2)
+    json (1.8.1)
+    uglifier (2.3.1)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  uglifier
